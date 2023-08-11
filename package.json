@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "tuiter-node-server-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianankoudou/new-tuiter-react-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Mariana Nkoudou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianankoudou/new-tuiter-react-app/issues"
+  },
+  "homepage": "https://github.com/marianankoudou/new-tuiter-react-app#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
