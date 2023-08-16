@@ -1,4 +1,6 @@
 import people from './users.js'
+import * as usersDao from './users-dao.js'
+
 let users = people
 const UserController = (app) => {
    app.get('/api/users', findUsers)
